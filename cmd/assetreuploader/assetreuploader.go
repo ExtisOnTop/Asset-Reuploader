@@ -60,7 +60,7 @@ func getCookie(c *roblox.Client) {
 			continue
 		}
 
-		fmt.Println("Authenticating cookie...")
+		fmt.Println("Extis Reuploader Authenticating cookie...")
 		err = c.SetCookie(i)
 		console.ClearScreen()
 		if err != nil {
