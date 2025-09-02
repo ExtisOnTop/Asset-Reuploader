@@ -122,8 +122,8 @@ func serve(c *roblox.Client) error {
 			}
 
 			duration := time.Since(start)
-			fmt.Printf("Reuploading took %d hours, %d minutes, and %d seconds\n", int(duration.Hours()), int(duration.Minutes())%60, int(duration.Seconds())%60)
-			fmt.Println("Waiting for client to finish changing ids...")
+			fmt.Printf("Extis Reuploading took %d hours, %d minutes, and %d seconds\n", int(duration.Hours()), int(duration.Minutes())%60, int(duration.Seconds())%60)
+			fmt.Println("Extis Waiting for client to finish changing ids...")
 		}()
 
 		w.WriteHeader(http.StatusOK)
