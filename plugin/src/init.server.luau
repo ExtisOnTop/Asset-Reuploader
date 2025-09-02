@@ -10,7 +10,7 @@ end
 
 local currentVersion = script.Parent.Version.Value
 
-local toolbar = plugin:CreateToolbar("Asset Reuploader")
+local toolbar = plugin:CreateToolbar("Extis Asset Reuploader")
 local widget = plugin:CreateDockWidgetPluginGui(
 	"Asset Reuploader",
 	DockWidgetPluginGuiInfo.new(Enum.InitialDockState.Float, false, true, 500, 250, 500, 250)
