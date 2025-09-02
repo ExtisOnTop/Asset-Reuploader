@@ -20,7 +20,7 @@ local toggleButton = toolbar:CreateButton("Extis Toggle Gui", "Toggle gui visibi
 toggleButton.Click:Connect(function() widget.Enabled = not widget.Enabled end)
 
 widget:GetPropertyChangedSignal("Enabled"):Connect(function() toggleButton:SetActive(widget.Enabled) end)
-widget.Title = `Asset Reuploader {currentVersion}`
+widget.Title = `Extis Asset Reuploader {currentVersion}`
 
 if plugin:GetSetting("Port") == nil then
 	plugin:SetSetting("Port", 38073)
